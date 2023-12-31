@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+    background: black;
+    background-image: url(img4.png);
+}
+.nav{
+    background: red;
+    width: auto;
+    margin-left: 100px;
+
+}
+li{
+    float: left;
+    margin-top: 20px;
+}
+
+li ul {
+    color: white;
+    border-bottom: 2px solid aqua;
+    border-top: 2px solid aqua;
+    float: left;
+    margin-left: 8px;
+    padding: 5px 15px 5px 15px;
+    border-radius: 15px;
+
+}
+li ul:hover{
+    border-bottom: 3px rgb(245, 69, 69) solid;
+    border-top: none;
+    margin-top: 10px;
+    animation: move .5s linear infinite;
+
+}
+a {
+    text-decoration: none;
+    color: white;
+   
+
+}
+a:hover{
+    color: aqua;
+}
